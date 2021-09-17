@@ -23,19 +23,29 @@ body{
      color: #333333;
      letter-spacing:1px
 }
-#img-div {
-  margin: 10px 10px;
+#img-div{
+  margin: 0 auto;
   padding: 20px;
   background-size: cover;
-  background:#fff
-
+  background:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+#img{
+   margin: 0 auto;
 }
 
-.jombotron, #tribute-info{
+#img-caption{
     text-align: center;
-    color:#333333
+}
+#tribute-info{
+    text-align: center;
 }
 
-div ul {
-    margin: 0 auto
+.list{
+  width: 600px;
+  margin: 0 auto;
 }
+
